@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cloud_client
+  profiles:
+    active: prod_profile_a
+  cloud:
+    config:
+      uri: http://localhost:8888

@@ -8,6 +8,5 @@ import static org.junit.Assert.*;
 public class AppTest {
     @Test public void testAppHasAGreeting() {
         ConfigClientApplication classUnderTest = new ConfigClientApplication();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
