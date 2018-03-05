@@ -1,8 +1,11 @@
 spring:
-  application:
-    name: cloud_client
   profiles:
     active: prod_profile_a
+  application:
+    name: cloud_client
   cloud:
     config:
       uri: http://localhost:8888
+management:
+      security:
+          enabled: false
